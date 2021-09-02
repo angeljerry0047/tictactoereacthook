@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.instruction {
+  margin: 15px 0;
+  font-weight: bold;
+  font-size: 25px;
+  color: red;
+  font-weight: bold;
+}
+
+.button {
+  margin: 15px 0;
+  width: 100px;
+  height: 40px;
+  background-color: #3312c5;
+  color: white;
+  font-size: 20px;
+  border-radius: 7px;
+}
+
+.board {
+  background-color: #eee;
+  width: 268px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  border: 5px #eee solid;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  background-color: #ddd;
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: magenta;
+}
